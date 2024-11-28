@@ -1,4 +1,5 @@
 package ie.atu.moviemanager;
+//encapsulation
 
 public class Movie {
 
@@ -31,6 +32,23 @@ public class Movie {
 
     public int getAge() {
         return this.age;
+    }
+
+    // Setter Methods
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLengthMin(double lengthMin) {
+        this.lengthMin = lengthMin;
+    }
+
+    public void setRating(float rating) {
+        this.rating = rating;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
 
