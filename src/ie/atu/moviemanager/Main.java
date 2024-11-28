@@ -7,12 +7,12 @@ public class Main {
     public static void main(String[] args) {
         
         //Create Object
-    Movie movieObject1 = new movie(Wicked,8.2,160,12)
-        System.out.println(movieObject1.getname());
-        System.out.println(movieObject1.getlengthMin());
-        System.out.println(movieObject1.getrating());
-        System.out.println(movieObject1.getage());
-    }
+    Movie movieObject1 = new Movie("Wicked",8.2,160,12);
+        System.out.println(movieObject1.getName());
+        System.out.println(movieObject1.getLengthMin());
+        System.out.println(movieObject1.getRating());
+        System.out.println(movieObject1.getAge());
+    
     //Create a Scanner
     Scanner userInput = new Scanner(System.in);
     int userSelection = 0; //Used to store user Menu option selection
@@ -31,9 +31,22 @@ public class Main {
         System.out.println("(5) Quit.");
         System.out.println("Select an option from 1 to 5 and press Enter");
 
-}
+
      //store user menu option selection
         userSelection = userInput.nextInt();
 
-    
-}
+        if(userSelection == 5){ // Quit
+
+            System.out.println("Student Application Closing - Goodbye!");
+            //Closer the user Input Scanner
+            userInput.close();
+            break; //Break ot of display infinite loop
+
+             } //End of if
+
+         } //End of while
+
+    } // End of Main Method
+
+} //End of Main Class
+
