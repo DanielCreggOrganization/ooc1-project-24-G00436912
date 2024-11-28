@@ -16,5 +16,22 @@ public class Movie {
         this.age = age;
     }
 
+    // Getter methods
+    public String getName() {
+        return this.name;
+    }
+
+    public double getLengthMin() {
+        return this.lengthMin;
+    }
+
+    public float getRating() {
+        return this.rating;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
 
 }
