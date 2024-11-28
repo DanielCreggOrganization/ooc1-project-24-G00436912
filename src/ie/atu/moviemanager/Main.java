@@ -1,5 +1,7 @@
 package ie.atu.moviemanager;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,5 +13,9 @@ public class Main {
         System.out.println(movieObject1.getrating());
         System.out.println(movieObject1.getage());
     }
+    //Create a Scanner
+    Scanner userInput = new Scanner(System.in);
+    int userSelection = 0; //Used to store user Menu option selection
+
 
 }
