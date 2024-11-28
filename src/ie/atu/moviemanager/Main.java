@@ -32,3 +32,8 @@ public class Main {
         System.out.println("Select an option from 1 to 5 and press Enter");
 
 }
+     //store user menu option selection
+        userSelection = userInput.nextInt();
+
+    
+}
