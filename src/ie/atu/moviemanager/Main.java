@@ -6,12 +6,27 @@ public class Main {
 
     public static void main(String[] args) {
         
-        //Create Object
+    //Create Object
     Movie movieObject1 = new Movie("Wicked",8.2,160,12);
         System.out.println(movieObject1.getName());
         System.out.println(movieObject1.getLengthMin());
         System.out.println(movieObject1.getRating());
         System.out.println(movieObject1.getAge());
+
+    Genre comedyMovie=new Genre("WhiteChicks", 6.2, 90, 15, "comedy");
+        System.out.println(comedyMovie.getName());
+        System.out.println(comedyMovie.getLengthMin());
+        System.out.println(comedyMovie.getRating());
+        System.out.println(comedyMovie.getAge());
+        System.out.println(comedyMovie.getGenre());
+
+    // Movie ActionMovie =new Genre("Gladiator", 9.2, 130, 16, "Action");
+    //     System.out.println(ActionMovie.getName());
+    //     System.out.println(ActionMovie.getLengthMin());
+    //     System.out.println(ActionMovie.getRating());
+    //     System.out.println(ActionMovie.getAge());
+    //     System.out.println(ActionMovie.getGenre());
+    
     
     //Create a Scanner
     Scanner userInput = new Scanner(System.in);

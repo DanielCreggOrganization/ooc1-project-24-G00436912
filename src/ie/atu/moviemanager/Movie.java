@@ -1,5 +1,5 @@
 package ie.atu.moviemanager;
-//encapsulation
+//encapsulation ,private and cant be edited from other classes
 
 public class Movie {
 
@@ -50,6 +50,7 @@ public class Movie {
     public void setAge(int age) {
         this.age = age;
     }
-
+    
+    
 
 }
