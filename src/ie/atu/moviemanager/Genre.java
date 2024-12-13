@@ -11,7 +11,7 @@ public class Genre extends Movie{
         return this.Genre;
     }
     
-    @Override
+    @Override 
     public String toString(){
         return "GenreMovie ="+this.getName()+" "+this.getLengthMin()+" "+this.getRating()+" "+this.getAge()+" "+this.getGenre()+".";
     }
