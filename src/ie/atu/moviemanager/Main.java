@@ -20,12 +20,8 @@ public class Main {
         System.out.println(comedyMovie.getAge());
         System.out.println(comedyMovie.getGenre());
 
-    // Movie ActionMovie =new Genre("Gladiator", 9.2, 130, 16, "Action");
-    //     System.out.println(ActionMovie.getName());
-    //     System.out.println(ActionMovie.getLengthMin());
-    //     System.out.println(ActionMovie.getRating());
-    //     System.out.println(ActionMovie.getAge());
-    //     System.out.println(ActionMovie.getGenre());
+     Movie actionMovie =new Genre("Gladiator", 9.2, 130, 16, "Action");//movie object polymorphed to genre object
+     System.out.println(actionMovie.toString());
     
     
     //Create a Scanner
