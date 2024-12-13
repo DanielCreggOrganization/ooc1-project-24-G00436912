@@ -51,6 +51,9 @@ public class Movie {
         this.age = age;
     }
     
-    
+    @Override 
+    public String toString(){
+        return "Movie ="+this.getName()+" "+this.getLengthMin()+" "+this.getRating()+" "+this.getAge()+" ";
+    }
 
 }
