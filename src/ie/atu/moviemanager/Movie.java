@@ -3,13 +3,13 @@ package ie.atu.moviemanager;
 
 public class Movie {
 
-    //instance variables
+    //instance variables //Private cannot be edited
     private String name; //name of movie
     private double lengthMin; //minutes of movie
     private float rating; //rating of reviews for movie 
     private int age; //age for movie
 
-    // Constructor
+    // Constructor //Object is public but variables hidden
     public Movie(String name, double lengthMin, float rating, int age) {
         this.name = name;
         this.lengthMin = lengthMin;
