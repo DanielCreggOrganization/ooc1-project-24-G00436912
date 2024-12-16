@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    // List to store movies
+    // List to store movies //Arraylist is an abstract object
     private static ArrayList<Movie> movieList = new ArrayList<>(); //Array list
 
     public static void main(String[] args) {
